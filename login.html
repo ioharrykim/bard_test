@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>UNTACT ATC 2021</title>
+  <meta name="description" content="">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  
+  <meta property="og:title" content="UNTACT ATC 2021">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="./img/link_banner.jpg">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/login.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!-- Add your site or application content here -->
+  <div class="main-container">
+    <header class="top-wrap">
+      <div class="top-bar">
+        <div class="logo-area"><a href="#"><img src="./img/logo.png" alt="UNTACT ATC로고"></a></div>
+        <div class="date-area"><img src="./img/date.jpg" alt="02.01(MON)-02.21(SUN)"></div>
+      </div>
+    </header>
+    <section class="video-section">
+      <div class="video-wrap">
+        <video id="vid" autoplay="autoplay" loop="loop" controls>
+          <source src="./img/intro_0125_1.mp4" type="video/mp4">
+          <source src="./img/intro_0125_1.mp4" type="video/ogg">
+          <source src="./img/intro_0125_1.mp4" type="video/webm">
+        </video>
+      </div>
+    </section>
+    <section class="login-section">
+      <div class="login-area">
+        <div class="login-wrap">
+          <div class="login-input-section-wrap">
+            <div class="login-input-wrap">
+              <input id="input-id" placeholder="DV mall 아이디" type="text">
+            </div>
+            <div class="login-input-wrap password-wrap">
+              <input id="input-pw" placeholder="핸드폰 번호 뒤 4자리" type="password">
+            </div>
+          </div>
+          <div class="login-button-wrap">
+            <button class="login-button">LOGIN</button>
+          </div>
+        </div>
+        <div class="login-desc">
+          <ul>
+            <li>
+              <p>*비밀번호는 DV mall에 등록된 핸드폰 번호 뒤 4자리입니다.</p>
+            </li>
+            <li>
+              <p>*비밀번호가 맞지 않을 경우 <a href="https://www.dentalemart.co.kr/member/login_dv/login.html" target="_blank">DV
+                  mall 사이트</a> 로그인 후<br>&nbsp;[마이페이지]>[회원정보수정] 메뉴에서 핸드폰 번호를 확인해 주세요.</p>
+            </li>
+            <li>
+              <p>*TEL. 1544-2809 (평일 09:00~18:00)</p>
+            </li>
+          </ul>
+          <button class="submit-button">DV mall
+              멤버십 회원 혜택 보러가기</button>
+        </div>
+      </div>
+      <div class="login-banner-wrap">
+        <a href="https://www.dentalemart.co.kr/product/p_list.html?c_id=M_CAT1&cat=013293" target="_blank"><img
+            src="./img/login_banner.jpg" alt="ATC 프로모션 배너"></a>
+      </div>
+    </section>
+    <footer class="bottom-wrap">
+      <div class="bottom-bar">
+        <img src="./img/logo_footer.png" alt="SHINHUNG 로고">
+        <p>서울시 중구 청파로 450 신흥빌딩 | TEL 080-819-2261 | FAX 02-6366-2173 | COPYRIGHT 2021 SHINHUNG.CO,.LTD. ALL RIGHTS
+          RESERVED.</p>
+      </div>
+    </footer>
+  </div>
+  <script>
+  	mem_id = '';
+  </script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <!-- <script src="js/main.js"></script> -->
+  <script src="js/functions.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+   $(document).ready(function(){
+    document.getElementById("vid").play();
+   });
+    //document.getElementById("vid").play();
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

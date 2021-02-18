@@ -1,0 +1,134 @@
+@import url("S-Core-Dream-light/s-core-dream.css");
+
+/*
+
+1. s-core-dream-thin 2. s-core-dream-extralight 3. s-core-dream-light 4. s-core-dream-regular 5. s-core-dream-medium 6. s-core-dream-bold 7. s-core-dream-extrabold 8. s-core-dream-heavy 9. s-core-dream-black 
+
+*/
+
+
+/* body, h1, h2, h3, h4, h5, h6, li, p,#nav li a, #topbar, input, button, select, textarea, a, .wf-container > *, .widget-title, .dwqa-container, #wpmem_reg, #wpmem_login {     font-family: "s-core-dream-light", sans-serif !important; font-size: 16px; color: #303030; } */
+
+html {
+  overflow: hidden;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-position: center;
+  letter-spacing: -2px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* TITLE WRAP */
+.top {
+  display: flex;
+  padding-top: 8%;
+  justify-content: space-between;
+}
+.title-wrap {
+  margin-right: 5%;
+  text-align: right;
+}
+.bold{
+  font-size: 4rem;
+  font-family: "s-core-dream-extrabold", sans-serif !important;
+  color: #F36A24;
+}
+.light {
+  font-size: 4rem;
+  font-family: "s-core-dream-extralight", sans-serif !important;
+  color: #F36A24;
+  margin-top: -50px;
+}
+.in-btn {
+  width: 250px;
+  height: 60px;
+  background-color: rgba(#000, #000, #000, 0.2);
+  border-radius: 10px;
+  border: solid 1px #58595B;
+  color: #58595B;
+  font-family: "s-core-dream-bold", sans-serif !important;
+  letter-spacing: 10px;
+  font-size: 1.6rem;
+  margin-top: -50px;
+  cursor: pointer;
+}
+
+/* SUM WRAP */
+.sum-wrap {
+  margin-top: 19%;
+}
+.date-title {
+  background-image: url(../img/orangebar.svg);
+  background-size: cover;
+  background-position: right;
+  width: 40vw;
+  height: 50px;
+  font-family: "s-core-dream-light", sans-serif !important;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 50px;
+  padding-left: 10%;
+}
+.date-sum {
+  height: 50px;
+  margin-top: -30px;
+  font-family: "s-core-dream-bold", sans-serif !important;
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+.venue-title {
+  background-image: url(../img/orangebar.svg);
+  background-size: cover;
+  background-position: right;
+  width: 40vw;
+  height: 50px;
+  font-family: "s-core-dream-light", sans-serif !important;
+  font-size: 2rem;
+  color: #fff;
+  line-height: 50px;
+  padding-left: 10%;
+}
+.venue-sum {
+  height: 50px;
+  margin-top: -30px;
+  font-family: "s-core-dream-bold", sans-serif !important;
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+.orange-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #F36A24;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+/* 반응형 */
+
+/* 1025 to 1540 LAPTOP */
+@media (min-width: 1025px) and (max-width: 1540px) {
+
+  
+} 
+/* 768 to 1024 TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  
+}
+/* 0 to 767px MOBILE */
+@media (max-width: 768px) {
+
+}   
